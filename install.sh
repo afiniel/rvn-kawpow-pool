@@ -40,12 +40,11 @@ export NVM_DIR="$HOME/.nvm"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-nvm install v10.23.3
-nvm use v10.23.3
+nvm install v8.1.4
+nvm use v8.1.4
 npm update -g
 
-npm install -g webpack@latest
-npm install -g pm2@latest
+npm install -g webpack@4.29.3 pm2@4.2.1
 npm install -g npm@latest
 
 npm install
