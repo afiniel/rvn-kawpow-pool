@@ -44,7 +44,8 @@ nvm install v10.23.3
 nvm use v10.23.3
 npm update -g
 
-npm install -g webpack@latest pm2@latest
+npm install -g webpack@latest
+npm install -g pm2@latest
 npm install -g npm@latest
 
 npm install
