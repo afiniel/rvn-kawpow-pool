@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # This is the Pool install script.
 echo "Pool install script."
