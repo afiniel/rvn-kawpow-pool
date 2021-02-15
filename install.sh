@@ -37,8 +37,8 @@ source ~/.bashrc
 sudo chown -R $USER:$GROUP ~/.nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
-nvm install v10
-nvm use v10
+nvm install v10.23.3
+nvm use v10.23.3
 npm update -g
 
 npm install -g webpack@latest pm2@latest
