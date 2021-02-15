@@ -74,7 +74,7 @@
         "semver": "latest",
         "sha3": "latest",
         "sma": "latest",
-        "sshpk": "^latest",
+        "sshpk": "latest",
         "stratum-pool": "git+https://github.com/Bitcrusher369/kawpow-stratum-pool.git",
         "winston": "latest",
         "winston-daily-rotate-file": "latest",
