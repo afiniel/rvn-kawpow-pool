@@ -18,6 +18,8 @@ sudo apt install -y software-properties-common build-essential autoconf pkg-conf
 sudo add-apt-repository -y ppa:chris-lea/redis-server
 sudo add-apt-repository -y ppa:bitcoin/bitcoin
 
+sudo apt install npm
+
 sudo apt update
 sudo apt install -y libdb4.8-dev libdb4.8++-dev libssl-dev libboost-all-dev libminiupnpc-dev libtool autotools-dev redis-server
 
