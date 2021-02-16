@@ -23,6 +23,7 @@ echo installing wget if not already
 sudo apt install wget
 sleep 1
 echo downloading raven core this may be outdated by the time you install please check
+cd ~
 wget https://github.com/RavenProject/Ravencoin/releases/download/v4.3.2.1/raven-4.3.2.1-x86_64-linux-gnu.zip
 sudo apt install unzip
 unzip raven-4.3.2.1-x86_64-linux-gnu.zip
