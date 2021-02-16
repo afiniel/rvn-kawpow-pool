@@ -24,7 +24,7 @@ sleep 3
 sudo apt-get update && sudo apt-get upgrade
 cd ~
 git config --global http.https://gopkg.in.followRedirects true
-git clone https://github.com/Bitcrusher369/rvn-kawpow-pool.git
+cd ~
 cd rvn-kawpow-pool/
 ./install.sh
 sudo apt install npm
