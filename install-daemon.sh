@@ -44,7 +44,7 @@ echo
 echo
 echo install finished check for errors
 echo
-echo cd raven-4.3.2.1/bin
+echo cd ~/raven-4.3.2.1/bin
 echo
 echo and run command below to start coin daemon
 echo
