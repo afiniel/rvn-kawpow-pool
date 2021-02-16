@@ -6,3 +6,21 @@ Few sources are no longer availble so sourced them and got new links.
 next step is to slow update everything.
 
 ################INSTALL INSTRUCTIONS################
+
+cd ~
+git clone https://github.com/Bitcrusher369/rvn-kawpow-pool.git
+cd rvn-kawpow-pool/
+sudo chmod a+x install-daemon.sh
+sudo chmod a+x install-pool.sh
+sudo apt install dos2unix
+dos2unix install-daemon.sh
+dos2unix install-pool.sh
+./install-daemon.sh
+cd ~/rvn-kawpow-pool
+./install-pool.sh
+
+	#once complete continue with configuration than run
+sudo chmod +x pool-start.sh
+	#without correct permissions you wont be able to bind address/port
+	#than run 
+sudo ./pool-start.sh
