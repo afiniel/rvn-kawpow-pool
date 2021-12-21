@@ -46,10 +46,10 @@ https://www.youtube.com/watch?v=NOjPFZk4sp0
     usermod -aG sudo pool
     su - pool
     sudo apt install wget
-    wget https://github.com/RavenProject/Ravencoin/releases/download/v4.1.0/raven-4.1.0.0-x86_64-linux-gnu.tar.gz
-    tar -xf raven-4.1.0.0-x86_64-linux-gnu.tar.gz
+    wget https://github.com/RavenProject/Ravencoin/releases/download/v4.3.2.1/raven-4.3.2.1-x86_64-linux-gnu.zip
+    unzip raven-4.3.2.1-x86_64-linux-gnu.zip
     rm raven*gz
-    cd raven-4.1.0.0/bin
+    cd raven-raven-4.3.2.1
     mkdir -p ~/.raven/
     touch ~/.raven/raven.conf
     echo "rpcuser=user1" > ~/.raven/raven.conf
